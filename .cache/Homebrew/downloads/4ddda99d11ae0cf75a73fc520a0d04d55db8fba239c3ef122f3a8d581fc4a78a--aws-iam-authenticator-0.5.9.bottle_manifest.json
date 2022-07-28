@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:b4396011bf1e08849f0db992cc3f638fc7b700b0ad3ecdaed11062f32e22e180",
+      "size": 1979,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 11.6"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "0.5.9.big_sur",
+        "sh.brew.bottle.digest": "bd2327738f22d7c95ee22b15915cad3ab850cc439f8684680ffe14c07c221d7f",
+        "sh.brew.tab": "{\"homebrew_version\":\"3.5.3-62-g0d6d390\",\"changed_files\":[],\"source_modified_time\":1656707072,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 11.6\",\"cpu_family\":\"penryn\",\"xcode\":\"13.2.1\",\"clt\":\"13.2.0.0.1.1638488800\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:9bfe105c087608102c58182f5582c41323710b28339282258362d9ab451b3723",
+      "size": 2011,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 12"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "0.5.9.arm64_monterey",
+        "sh.brew.bottle.digest": "12efc857905e148e434b541cc76801956f186ca92fb43ea88884303a1c36c175",
+        "sh.brew.tab": "{\"homebrew_version\":\"3.5.3-62-g0d6d390\",\"changed_files\":[],\"source_modified_time\":1656707072,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 12\",\"cpu_family\":\"arm_firestorm_icestorm\",\"xcode\":\"13.4\",\"clt\":\"13.4.0.0.1.1651278267\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:88977295450e8dd2ca25bcd7e7b76effa24ae0dae8ed967eac574280d33332c7",
+      "size": 1978,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 12"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "0.5.9.monterey",
+        "sh.brew.bottle.digest": "091e33fd80229c5db17574795d5e44f9a54951e3fc2df24336c2cd449cd6e839",
+        "sh.brew.tab": "{\"homebrew_version\":\"3.5.3-62-g0d6d390\",\"changed_files\":[],\"source_modified_time\":1656707072,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 12\",\"cpu_family\":\"penryn\",\"xcode\":\"13.4\",\"clt\":\"13.4.0.0.1.1651278267\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:d1ffc10d848a5bc94c1ddcba77bd7101f934037598272ddfdb7c676429dbc2e0",
+      "size": 1974,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 10.15.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "0.5.9.catalina",
+        "sh.brew.bottle.digest": "0207f549dce4741625e3a93cad4ddcce8886a18eeb13ddbdf7d27530056877c0",
+        "sh.brew.tab": "{\"homebrew_version\":\"3.5.3-62-g0d6d390\",\"changed_files\":[],\"source_modified_time\":1656707072,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 10.15.7\",\"cpu_family\":\"penryn\",\"xcode\":\"12.4\",\"clt\":\"12.0.0.32.29\",\"preferred_perl\":\"5.18\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:5a8e660b63f4d1416ad98150531dbb3d586f13e717e937bc45e539070f6f9fb8",
+      "size": 2061,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "5.13.0-1031-azure"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "0.5.9.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "c0b736f1703281ec4d24052cc3758ea3db9304a2099f272bd6dba12668f771f3",
+        "sh.brew.bottle.glibc.version": "2.23",
+        "sh.brew.tab": "{\"homebrew_version\":\"3.5.3-62-g0d6d390\",\"changed_files\":[],\"source_modified_time\":1656707072,\"compiler\":\"gcc-5\",\"runtime_dependencies\":[],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"5.13.0-1031-azure\",\"cpu_family\":\"skylake\",\"glibc_version\":\"2.23\",\"oldest_cpu_family\":\"core2\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:b2b4c326cf32634501484908fb4f3d52a20f5149ceb1b38ab39d17de77f99acc",
+      "size": 2012,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 11.6"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "0.5.9.arm64_big_sur",
+        "sh.brew.bottle.digest": "ba09e1a04810d7fc4fe0156a231d6a28c507a39cd7579d2f8705c204d1611cde",
+        "sh.brew.tab": "{\"homebrew_version\":\"3.5.3-62-g0d6d390\",\"changed_files\":[],\"source_modified_time\":1656707072,\"compiler\":\"clang\",\"runtime_dependencies\":[],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 11.6\",\"cpu_family\":\"arm_firestorm_icestorm\",\"xcode\":\"13.2.1\",\"clt\":\"13.2.0.0.1.1638488800\",\"preferred_perl\":\"5.30\"}}"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2022-07-03",
+    "org.opencontainers.image.description": "Use AWS IAM credentials to authenticate to Kubernetes",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/aws-iam-authenticator",
+    "org.opencontainers.image.license": "Apache-2.0",
+    "org.opencontainers.image.ref.name": "0.5.9",
+    "org.opencontainers.image.revision": "9962416c0606ee137ed8cda7bc4b063686fa1dbd",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/9962416c0606ee137ed8cda7bc4b063686fa1dbd/Formula/aws-iam-authenticator.rb",
+    "org.opencontainers.image.title": "aws-iam-authenticator",
+    "org.opencontainers.image.url": "https://github.com/kubernetes-sigs/aws-iam-authenticator",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "0.5.9"
+  }
+}
